@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/swiper-bundle.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Aprenda JS</title>
+  </head>
+  <body>
+    <header class="interface">
+      <a class="logo" href="index.html">Aprenda <span>JavaScript</span></a>
+      <nav>
+        <ul>
+          <li class="nav-item"><a href="#start">Início</a></li>
+          <li class="nav-item"><a href="#about">Sobre</a></li>
+          <li class="nav-item"><a href="#tutorial">Tutoriais</a></li>
+          <li class="nav-item"><a href="#depo">Depoimentos</a></li>
+          <i class="bx bx-search"></i>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="inicio" id="start">
+        <div class="home-text">
+          <h4 class="text-h4">Seja um developer!</h4>
+          <h1 class="text-h1">Descubra o mundo JavaScript.</h1>
+          <p>
+            JavaScript é uma linguagem poderosa que possibilita a criação de
+            sites dinâmicos e interativos. Com ela, é possível desenvolver desde
+            simples animações até aplicações web complexas. Experimente e
+            descubra todo o potencial dessa linguagem incrível!
+          </p>
+        </div>
+        <img class="laptop" src="img/imagem.png" alt="laptop" />
+      </section>
+      <!--inicio-->
+    </main>
+    <section class="sobre" id="about">
+      <div class="navigation">
+        <h2 class="titulo">Sobre o JavaScript<span>:</span></h2>
+        <div class="flex">
+          <div class="sobre-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>O que é?</h3>
+            <p>
+              JavaScript é uma linguagem de programação amplamente utilizada
+              para criar interatividade em páginas web. Ele permite aos
+              desenvolvedores criar e controlar elementos dinâmicos em tempo
+              real, como animações, atualizações de conteúdo e validação de
+              formulários.
+            </p>
+          </div>
+
+          <div class="sobre-box">
+            <i class="bx bx-question-mark"></i>
+            <h3>É Java?</h3>
+            <p>
+              JavaScript e Java são duas linguagens de programação distintas,
+              sem relação direta entre si. Java é uma linguagem de programação
+              de propósito geral, enquanto JavaScript é uma linguagem de script
+              usada principalmente para desenvolvimento web. Embora compartilhem
+              parte do nome, suas semelhanças terminam aí.
+            </p>
+          </div>
+
+          <div class="sobre-box">
+            <i class="bx bx-star"></i>
+            <h3>Por que?</h3>
+            <p>
+              JavaScript é essencial para adicionar interatividade e dinamismo
+              ao seu site, tornando-o mais atraente e funcional para os
+              usuários. Com JavaScript, é possível criar animações, validar
+              formulários, atualizar conteúdo dinamicamente e até mesmo criar
+              jogos e aplicativos web.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--sobre-->
+    <section class="tutoriais" id="tutorial">
+      <h2 class="sessaotutorial">Assista aos Tutoriais:</h2>
+      <div class="navigation-tut">
+        <div class="mainyt">
+          <div class="card card1">
+            <img src="img/tumb1.png" alt="img3" />
+            <h1>VÍDEO 1</h1>
+            <p>Assista a vídeoaula sobre clicando no botão abaixo:</p>
+            <a
+              href="https://www.youtube.com/watch?v=IJvVx2HMbNk"
+              target="_blank"
+              ><button class="btn">ASSISTIR</button></a
+            >
+          </div>
+          <div class="card estr">
+            <img src="img/tumb2.png" alt="img2" />
+            <h1>VÍDEO 2</h1>
+            <p>Assista a vídeoaula sobre clicando no botão abaixo:</p>
+            <a
+              href="https://www.youtube.com/watch?v=Vbabsye7mWo"
+              target="_blank"
+              ><button class="btn">ASSISTIR</button></a
+            >
+          </div>
+          <div class="card var">
+            <img src="img/tumb3.png" alt="img1" />
+            <h1>VÍDEO 3</h1>
+            <p>Assista a vídeoaula sobre clicando no botão abaixo:</p>
+            <a
+              href="https://www.youtube.com/watch?v=JANN0a-o95w"
+              target="_blank"
+              ><button class="btn">ASSISTIR</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--tutoriais-->
+    <section class="depoimentos mySwiper" id="depo">
+      <div class="depoimentos-container swiper-wrapper">
+        <div class="slide swiper-slide">
+          <i class="bx bx-chat"></i>
+          <p class="depoi-txt">
+            Valeu, JavaScript! Graças a você, agora tô entendendo dessa
+            coisa toda de códigos e pá. Agradeço demais por me abrir essas
+            portas no mundo da programação. Let's code!
+          </p>
+          <div class="person">
+            <img src="img/latrell.jpg" alt="" />
+            <p class="nome-person">Latrell</p>
+            <p class="func-person">Web developer & Cantor</p>
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+          <i class="bx bx-chat"></i>
+          <p class="depoi-txt">
+            Oi, galera! Aqui é a Shereka, a irmã do Shrek, e queria dizer um
+            mega obrigada ao JavaScript! Agora posso fazer
+            sites como ninguém.
+          </p>
+          <div class="person">
+            <img src="img/shereka.jpg" alt="" />
+            <p class="nome-person">Shereka</p>
+            <p class="func-person">Front end developer & Irmã do Sherek</p>
+          </div>
+        </div
+
+        <div class="slide swiper-slide">
+          <i class="bx bx-chat"></i>
+          <p class="depoi-txt">
+            Valeu, malucos do Grove Street! Com o curso de JavaScript aprendi a
+            programar meus sites e a não deixar a Grove Street de lado. Muito
+            obrigado por me ensinarem a ser o rei da Web!
+          </p>
+          <div class="person">
+            <img src="img/cj.jpg" alt="" />
+            <p class="nome-person">Carl Johnson</p>
+            <p class="func-person">Back end developer & Gangstar</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </body>
+  <script src="scripts/swiper-bundle.js"></script>
+  <script src="scripts/script.js"></script>
+</html>
